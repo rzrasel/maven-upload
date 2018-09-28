@@ -65,3 +65,22 @@ bintray.apikey=bintray api key
 bintray.gpg.password=password
 bintray.user=user
 ```
+
+When you done with all of this modifications open terminal from Android Studio and execute the tasks:
+in Windows:
+```
+gradlew install
+```
+or if you are in Mac/Linux
+```
+gradle install
+```
+and after the task succesfully executed you should execute the task:
+in Windows:
+```
+gradlew bintrayUpload
+```
+or if you are in Mac/Linux
+```
+gradle bintrayUpload
+```
