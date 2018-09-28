@@ -8,6 +8,7 @@ For more information refer to this [article](https://medium.com/@kostasdrakonaki
 To create an issue like described, go to <a href="https://issues.sonatype.org/secure/Dashboard.jspa" data-href="https://issues.sonatype.org/secure/Dashboard.jspa" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">Sonatype Dashboard</a> and login with account created. And then click at <a href="https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&amp;pid=10134" data-href="https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&amp;pid=10134" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank"><strong class="markup--strong markup--p-strong">Create</strong></a><strong class="markup--strong markup--p-strong"> </strong>placed at the top menu.
 
 ### Step 4. Enable auto signing for Bintray
+First step is to generate a key via command line with the command below. (In case you use Windows, please do it under <a href="https://www.cygwin.com/" data-href="https://www.cygwin.com/" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">cygwin</a> or <a href="http://cmder.net/" data-href="http://cmder.net/" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">cmder</a>)
 ```enable_auto_signing_for_bintray
 gpg --gen-key
 gpg --list-keys
