@@ -8,6 +8,15 @@ build.gradle project level
 ```build_gradle_project
 classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.4'
 classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+
+1.7.3
+classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+
+1.8.4
+classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4"
+
+2.1
+classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
 ```
 
 build.gradle library level
