@@ -4,6 +4,18 @@ An easy way to upload to bintray and generate pom.xml using new Maven Plugin
 
 For more information refer to this [article](https://medium.com/@kostasdrakonakis/how-to-distribute-your-own-android-library-through-jitpack-or-jcenter-and-maven-central-from-174c356e818a)
 
+### Step 1. Create a Sonatype account for uploading to Maven Central (Optional)
+To create an issue like described, go to <a href="https://issues.sonatype.org/secure/Dashboard.jspa" data-href="https://issues.sonatype.org/secure/Dashboard.jspa" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">Sonatype Dashboard</a> and login with account created. And then click at <a href="https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&amp;pid=10134" data-href="https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&amp;pid=10134" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank"><strong class="markup--strong markup--p-strong">Create</strong></a><strong class="markup--strong markup--p-strong"> </strong>placed at the top menu.
+
+### Step 4. Enable auto signing for Bintray
+```enable_auto_signing_for_bintray
+gpg --gen-key
+gpg --list-keys
+gpg --keyserver hkp://pool.sks-keyservers.net --send-keys PUBLIC_KEY_ID
+gpg -a --export yourmail@gmail.com > public_key_sender.asc
+gpg -a --export-secret-key yourmail@gmail.com > private_key_sender.asc
+```
+
 build.gradle project level
 ```build_gradle_project
 classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.4'
