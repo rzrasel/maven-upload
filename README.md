@@ -74,6 +74,8 @@ gradlew install
 or if you are in Mac/Linux
 ```
 gradle install
+or
+./gradlew install
 ```
 and after the task succesfully executed you should execute the task:
 in Windows:
@@ -83,4 +85,6 @@ gradlew bintrayUpload
 or if you are in Mac/Linux
 ```
 gradle bintrayUpload
+or
+./gradlew bintrayUpload
 ```
