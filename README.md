@@ -88,3 +88,17 @@ gradle bintrayUpload
 or
 ./gradlew bintrayUpload
 ```
+Force gradle to redownload dependencies in Mac/Linux
+```
+
+or
+rm -rf $HOME/.gradle/caches/
+rm -rf $HOME/.gradle/wrapper/
+```
+Force gradle to redownload dependencies in Mac/Linux
+```
+gradlew build --refresh-dependencies
+or
+./gradlew build --refresh-dependencies
+```
+
