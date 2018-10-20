@@ -1,5 +1,17 @@
 # maven-upload
 
+### GIT Command
+```git_command
+git init
+git remote add origin https://github.com/rzrasel/And-Libs-Mine-View.git
+git remote -v
+git fetch && git checkout master
+git add .
+git commit -m "Add Readme & Git Commit File"
+git pull
+git push --all
+```
+
 An easy way to upload to bintray and generate pom.xml using new Maven Plugin
 
 For more information refer to this [article](https://medium.com/@kostasdrakonakis/how-to-distribute-your-own-android-library-through-jitpack-or-jcenter-and-maven-central-from-174c356e818a)
@@ -101,4 +113,14 @@ gradlew build --refresh-dependencies
 or
 ./gradlew build --refresh-dependencies
 ```
+
+Terminal / Command Line Command:
+
+| OS | Command | Description |
+| -- | ------- | ----------- |
+| os | command | description |
+
+
+
+
 
