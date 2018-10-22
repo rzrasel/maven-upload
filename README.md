@@ -90,7 +90,7 @@ or
 ./gradlew install
 ```
 
-| Gradlew Install |
+Gradlew Install
 
 | -- | ------- | ----------- |
 | OS | Command | Description |
