@@ -79,7 +79,7 @@ bintray.user=user
 ```
 
 When you done with all of this modifications open terminal from Android Studio and execute the tasks:
-### Gradlew Install:
+#### Gradlew Install:
 
 | OS | Command | Description |
 | -- | ------- | ----------- |
@@ -87,17 +87,14 @@ When you done with all of this modifications open terminal from Android Studio a
 | Mac | ./gradlew install | Gradlew Install |
 | Linux | gradle install | Gradlew Install |
 
-and after the task succesfully executed you should execute the task:
-in Windows:
-```
-gradlew bintrayUpload
-```
-or if you are in Mac/Linux
-```
-gradle bintrayUpload
-or
-./gradlew bintrayUpload
-```
+And after the task succesfully executed you should execute the task:
+#### Bintray Upload
+| OS | Command | Description |
+| -- | ------- | ----------- |
+| Windows | gradlew bintrayUpload | Bintray Upload |
+| Mac | ./gradlew bintrayUpload | Bintray Upload |
+| Linux | gradle bintrayUpload | Bintray Upload |
+
 Force gradle to redownload dependencies in Mac/Linux
 ```
 
@@ -123,6 +120,19 @@ or if you are in Mac/Linux
 gradle install
 or
 ./gradlew install
+```
+-->
+<!---
+and after the task succesfully executed you should execute the task:
+in Windows:
+```
+gradlew bintrayUpload
+```
+or if you are in Mac/Linux
+```
+gradle bintrayUpload
+or
+./gradlew bintrayUpload
 ```
 -->
 
