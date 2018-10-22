@@ -91,6 +91,7 @@ or
 ```
 
 | Gradlew Install |
+
 | -- | ------- | ----------- |
 | OS | Command | Description |
 | Windows | gradlew install | Gradlew Install |
