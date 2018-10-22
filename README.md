@@ -79,17 +79,6 @@ bintray.user=user
 ```
 
 When you done with all of this modifications open terminal from Android Studio and execute the tasks:
-in Windows:
-```
-gradlew install
-```
-or if you are in Mac/Linux
-```
-gradle install
-or
-./gradlew install
-```
-
 ### Gradlew Install:
 
 | OS | Command | Description |
@@ -97,7 +86,6 @@ or
 | Windows | gradlew install | Gradlew Install |
 | Mac | ./gradlew install | Gradlew Install |
 | Linux | gradle install | Gradlew Install |
-| os | command | description |
 
 and after the task succesfully executed you should execute the task:
 in Windows:
@@ -123,6 +111,21 @@ gradlew build --refresh-dependencies
 or
 ./gradlew build --refresh-dependencies
 ```
+
+<!---
+When you done with all of this modifications open terminal from Android Studio and execute the tasks:
+in Windows:
+```
+gradlew install
+```
+or if you are in Mac/Linux
+```
+gradle install
+or
+./gradlew install
+```
+-->
+
 
 Terminal / Command Line Command:
 
