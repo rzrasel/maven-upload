@@ -97,6 +97,16 @@ And after the task succesfully executed you should execute the task:
 | Mac | ./gradlew bintrayUpload | Bintray Upload |
 | Linux | gradle bintrayUpload | Bintray Upload |
 
+
+Force gradle to redownload dependencies in Mac/Linux
+#### Redownload Gradle Dependencies
+
+| OS | Command | Description |
+| -- | ------- | ----------- |
+| Mac | rm -rf $HOME/.gradle/caches/ <br />rm -rf $HOME/.gradle/wrapper/<br /> | description |
+| os | command | description |
+| os | command | description |
+
 Force gradle to redownload dependencies in Mac/Linux
 ```
 
