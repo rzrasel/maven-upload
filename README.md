@@ -78,7 +78,7 @@ bintray.gpg.password=password
 bintray.user=user
 ```
 
-<br /><br />
+<br />
 When you done with all of this modifications open terminal from Android Studio and execute the tasks:
 #### Gradlew Install:
 | OS | Command | Description |
@@ -87,7 +87,7 @@ When you done with all of this modifications open terminal from Android Studio a
 | Mac | ./gradlew install | Gradlew Install |
 | Linux | gradle install | Gradlew Install |
 
-<br /><br />
+<br />
 And after the task succesfully executed you should execute the task:
 #### Bintray Upload
 | OS | Command | Description |
@@ -96,20 +96,21 @@ And after the task succesfully executed you should execute the task:
 | Mac | ./gradlew bintrayUpload | Bintray Upload |
 | Linux | gradle bintrayUpload | Bintray Upload |
 
-<br /><br />
+<br />
 Force gradle to delete cache dependencies in Mac/Linux
 #### Delete Gradle Cache Dependencies
 | OS | Command | Description |
 | -- | ------- | ----------- |
 | Mac | rm -rf $HOME/.gradle/caches/ <br />rm -rf $HOME/.gradle/wrapper/<br /> | Delete Gradle Cache Dependencies |
 
-
+<br />
 Force gradle to redownload dependencies in Mac/Linux
-```
-gradlew build --refresh-dependencies
-or
-./gradlew build --refresh-dependencies
-```
+#### Redownload Gradle Dependencies
+| OS | Command | Description |
+| -- | ------- | ----------- |
+| Windows | gradlew build --refresh-dependencies | Redownload Gradle Dependencies |
+| Mac | ./gradlew build --refresh-dependencies | Redownload Gradle Dependencies |
+
 
 <!---
 When you done with all of this modifications open terminal from Android Studio and execute the tasks:
@@ -146,7 +147,14 @@ rm -rf $HOME/.gradle/caches/
 rm -rf $HOME/.gradle/wrapper/
 ```
 -->
-
+<!---
+Force gradle to redownload dependencies in Mac/Linux
+```
+gradlew build --refresh-dependencies
+or
+./gradlew build --refresh-dependencies
+```
+-->
 
 Terminal / Command Line Command:
 
