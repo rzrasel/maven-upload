@@ -150,9 +150,9 @@ rm -rf $HOME/.gradle/wrapper/
 <!---
 Force gradle to redownload dependencies in Mac/Linux
 ```
-gradlew build --refresh-dependencies
+gradlew build - -refresh-dependencies
 or
-./gradlew build --refresh-dependencies
+./gradlew build - -refresh-dependencies
 ```
 -->
 
