@@ -78,6 +78,7 @@ bintray.gpg.password=password
 bintray.user=user
 ```
 
+
 When you done with all of this modifications open terminal from Android Studio and execute the tasks:
 #### Gradlew Install:
 
@@ -86,6 +87,7 @@ When you done with all of this modifications open terminal from Android Studio a
 | Windows | gradlew install | Gradlew Install |
 | Mac | ./gradlew install | Gradlew Install |
 | Linux | gradle install | Gradlew Install |
+
 
 And after the task succesfully executed you should execute the task:
 #### Bintray Upload
