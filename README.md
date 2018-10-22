@@ -92,10 +92,14 @@ or
 
 Gradlew Install
 
+
+
 | -- | ------- | ----------- |
 | OS | Command | Description |
 | Windows | gradlew install | Gradlew Install |
 | os | command | description |
+
+
 
 and after the task succesfully executed you should execute the task:
 in Windows:
