@@ -89,7 +89,7 @@ When you done with all of this modifications open terminal from Android Studio a
 
 <br />
 And after the task succesfully executed you should execute the task:
-#### Bintray Upload
+#### Bintray Upload:
 | OS | Command | Description |
 | -- | ------- | ----------- |
 | Windows | gradlew bintrayUpload | Bintray Upload |
@@ -98,14 +98,14 @@ And after the task succesfully executed you should execute the task:
 
 <br />
 Force gradle to delete cache dependencies in Mac/Linux
-#### Delete Gradle Cache Dependencies
+#### Delete Gradle Cache Dependencies:
 | OS | Command | Description |
 | -- | ------- | ----------- |
 | Mac | rm -rf $HOME/.gradle/caches/ <br />rm -rf $HOME/.gradle/wrapper/<br /> | Delete Gradle Cache Dependencies |
 
 <br />
 Force gradle to redownload dependencies in Mac/Linux
-#### Redownload Gradle Dependencies
+#### Redownload Gradle Dependencies:
 | OS | Command | Description |
 | -- | ------- | ----------- |
 | Windows | gradlew build --refresh-dependencies | Redownload Gradle Dependencies |
