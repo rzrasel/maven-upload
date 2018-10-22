@@ -3,7 +3,7 @@
 ### GIT Command
 ```git_command
 git init
-git remote add origin https://github.com/rzrasel/And-Libs-Mine-View.git
+git remote add origin https://github.com/rzrasel/maven-upload.git
 git remote -v
 git fetch && git checkout master
 git add .
@@ -89,6 +89,13 @@ gradle install
 or
 ./gradlew install
 ```
+
+| Gradlew Install |
+| -- | ------- | ----------- |
+| OS | Command | Description |
+| Windows | gradlew install | Gradlew Install |
+| os | command | description |
+
 and after the task succesfully executed you should execute the task:
 in Windows:
 ```
