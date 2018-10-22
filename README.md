@@ -79,9 +79,9 @@ bintray.user=user
 ```
 
 <br />
-When you done with all of this modifications open terminal from Android Studio and execute the tasks:
-#### Gradlew Install:
+When you done with all of this modifications open terminal from Android Studio and execute the tasks
 
+#### Gradlew Install:
 | OS | Command | Description |
 | -- | ------- | ----------- |
 | Windows | gradlew install | Gradlew Install |
@@ -89,9 +89,9 @@ When you done with all of this modifications open terminal from Android Studio a
 | Linux | gradle install | Gradlew Install |
 
 <br />
-And after the task succesfully executed you should execute the task:
-#### Bintray Upload:
+And after the task succesfully executed you should execute the task
 
+#### Bintray Upload:
 | OS | Command | Description |
 | -- | ------- | ----------- |
 | Windows | gradlew bintrayUpload | Bintray Upload |
@@ -99,17 +99,17 @@ And after the task succesfully executed you should execute the task:
 | Linux | gradle bintrayUpload | Bintray Upload |
 
 <br />
-Force gradle to delete cache dependencies in Mac/Linux
-#### Delete Gradle Cache Dependencies:
+Force gradle to delete cache dependencies
 
+#### Delete Gradle Cache Dependencies:
 | OS | Command | Description |
 | -- | ------- | ----------- |
 | Mac | rm -rf $HOME/.gradle/caches/ <br />rm -rf $HOME/.gradle/wrapper/<br /> | Delete Gradle Cache Dependencies |
 
 <br />
-Force gradle to redownload dependencies in Mac/Linux
-#### Redownload Gradle Dependencies:
+Force gradle to redownload dependencies
 
+#### Redownload Gradle Dependencies:
 | OS | Command | Description |
 | -- | ------- | ----------- |
 | Windows | gradlew build --refresh-dependencies | Redownload Gradle Dependencies |
