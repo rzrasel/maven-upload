@@ -78,17 +78,16 @@ bintray.gpg.password=password
 bintray.user=user
 ```
 
-
+<br /><br />
 When you done with all of this modifications open terminal from Android Studio and execute the tasks:
 #### Gradlew Install:
-
 | OS | Command | Description |
 | -- | ------- | ----------- |
 | Windows | gradlew install | Gradlew Install |
 | Mac | ./gradlew install | Gradlew Install |
 | Linux | gradle install | Gradlew Install |
 
-
+<br /><br />
 And after the task succesfully executed you should execute the task:
 #### Bintray Upload
 | OS | Command | Description |
@@ -97,7 +96,7 @@ And after the task succesfully executed you should execute the task:
 | Mac | ./gradlew bintrayUpload | Bintray Upload |
 | Linux | gradle bintrayUpload | Bintray Upload |
 
-
+<br /><br />
 Force gradle to delete cache dependencies in Mac/Linux
 #### Delete Gradle Cache Dependencies
 | OS | Command | Description |
