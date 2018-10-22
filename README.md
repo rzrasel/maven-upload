@@ -98,22 +98,13 @@ And after the task succesfully executed you should execute the task:
 | Linux | gradle bintrayUpload | Bintray Upload |
 
 
-Force gradle to redownload dependencies in Mac/Linux
-#### Redownload Gradle Dependencies
-
+Force gradle to delete cache dependencies in Mac/Linux
+#### Delete Gradle Cache Dependencies
 | OS | Command | Description |
 | -- | ------- | ----------- |
-| Mac | rm -rf $HOME/.gradle/caches/ <br />rm -rf $HOME/.gradle/wrapper/<br /> | description |
-| os | command | description |
-| os | command | description |
+| Mac | rm -rf $HOME/.gradle/caches/ <br />rm -rf $HOME/.gradle/wrapper/<br /> | Delete Gradle Cache Dependencies |
 
-Force gradle to redownload dependencies in Mac/Linux
-```
 
-or
-rm -rf $HOME/.gradle/caches/
-rm -rf $HOME/.gradle/wrapper/
-```
 Force gradle to redownload dependencies in Mac/Linux
 ```
 gradlew build --refresh-dependencies
@@ -145,6 +136,15 @@ or if you are in Mac/Linux
 gradle bintrayUpload
 or
 ./gradlew bintrayUpload
+```
+-->
+<!---
+Force gradle to redownload dependencies in Mac/Linux
+
+```
+or
+rm -rf $HOME/.gradle/caches/
+rm -rf $HOME/.gradle/wrapper/
 ```
 -->
 
