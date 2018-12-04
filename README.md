@@ -172,7 +172,7 @@ or
 
 | OS | Command | Description |
 | -- | ------- | ----------- |
-| Windows | %HOMEPATH%/.gradle/caches/<br >%USERPROFILE%\.gradle\caches | Gradle cache locates at |
+| Windows | %HOMEPATH%/.gradle/caches/<br >%USERPROFILE%\\.gradle\caches | Gradle cache locates at |
 | Mac | ~/.gradle/caches<br />Directory: modules-2 > files-2.1 (Main) | Global caching is probably the most known one |
 
 <a href="https://medium.com/cirruslabs/mastering-gradle-caching-and-incremental-builds-37eb1af7fcde" target="_blank">Mastering Gradle Caching and Incremental Builds</a>
