@@ -104,7 +104,7 @@ Force gradle to delete cache dependencies
 #### Delete Gradle Cache Dependencies:
 | OS | Command | Description |
 | -- | ------- | ----------- |
-| Mac | rm -rf $HOME/.gradle/caches/ <br />rm -rf $HOME/.gradle/wrapper/<br /> | Delete Gradle Cache Dependencies |
+| Mac | rm -rf $HOME/.gradle/caches/<br />rm -rf $HOME/.gradle/wrapper/<br /> | Delete Gradle Cache Dependencies |
 
 <br />
 Force gradle to redownload dependencies
@@ -159,6 +159,22 @@ or
 ./gradlew build - -refresh-dependencies
 ```
 -->
+
+#### How to Add Stacktrace or debug Option when Building Android Studio Project
+
+| OS | Command | Description |
+| -- | ------- | ----------- |
+| Mac | ./gradlew assembleMyBuild --stacktrace<br />./gradlew assembleDebug --scan | description |
+
+<a href="https://stackoverflow.com/questions/21674091/how-to-add-stacktrace-or-debug-option-when-building-android-studio-project" target="_blank">How to Add Stacktrace or debug Option when Building Android Studio Project</a>
+
+#### Global Caching:
+
+| OS | Command | Description |
+| -- | ------- | ----------- |
+| Mac | ~/.gradle/caches | Global caching is probably the most known one |
+<a href="https://medium.com/cirruslabs/mastering-gradle-caching-and-incremental-builds-37eb1af7fcde" target="_blank">Mastering Gradle Caching and Incremental Builds</a>
+
 
 Terminal / Command Line Command:
 
