@@ -164,7 +164,7 @@ or
 
 | OS | Command | Description |
 | -- | ------- | ----------- |
-| Mac | ./gradlew assembleMyBuild --stacktrace<br />./gradlew assembleDebug --scan | description |
+| Mac | ./gradlew assembleMyBuild --stacktrace<br />./gradlew assembleDebug --scan<br />./gradlew build --stacktrace<br />./gradlew clean --stacktrace | description |
 
 <a href="https://stackoverflow.com/questions/21674091/how-to-add-stacktrace-or-debug-option-when-building-android-studio-project" target="_blank">How to Add Stacktrace or debug Option when Building Android Studio Project</a>
 
